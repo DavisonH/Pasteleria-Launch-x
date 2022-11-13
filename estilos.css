@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+/*-----------------------------------------------INDEX--------------------------------------------------  */
+
+/* Inicio navegadores */
+
+img.logoInicio {
+    width: 120px;
+    height: 120px;
+    background: #E3B79E;
+}
+
+.Inicio {
+    height: 250px;
+    width: 100%;
+    background: #E3B79E;
+}
+
+.Links {
+    Display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #E3B79E;
+
+}
+
+#ubicacion {
+    background: #E3B79E;
+
+
+}
+
+.Links a {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+background: #E3B79E;
+    border: 2px;
+    color: black;
+    text-decoration: none;
+    padding: 90px 44px 0 44px;
+}
+
+.Links a:hover {
+    text-decoration: underline;
+    color: #8E6A52;
+}
+.navegadores{
+    height: 40px;
+}
+
+/* Titulo Mas vendidos */
+
+
+#proPopular {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 60px 0 60px 0;
+}
+
+/* Mas vendidos */
+
+
+.ventasTop {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20% 0 20%;
+}
+
+.cajasV {
+    height: 420px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+
+}
+
+img.pequeña {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    min-height: 300px;
+    padding: 0 0 0 0;
+    border-radius: 10px;
+
+
+}
+
+/* Botenes ventas */
+.boton{
+    margin: 0 auto;
+}
+
+.BotonV {
+    background-color: #FCE7DB;
+    /* Green */
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 200px;
+    height: 80px;
+    transition: .3s ease all;
+    border-radius: 5px;
+
+}
+.BotonV:hover{
+    background: #8E6A52;
+    color: #FCE7DB;
+
+}
+
+/*-----------------------------------------------CAKES--------------------------------------------------  */
+
+/* Titulo */
+.nameProducto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 60px 0 60px 0;
+    text-transform: uppercase;
+}
+
+/* Informacion del producto */
+
+.contenedorProducto{
+    display: flex;
+    justify-content: center;
+    padding: 0 10% 0 10%;
+    height: 800px;
+}
+
+/* Info imagen */
+
+.contenedorImagen{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 50px 0 50px;
+    width: 400px;
+    
+
+}
+.infoProduct{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+
+}
+.advertencia{
+    color: purple;
+}
+
+/* info compra */
+
+.infoCompra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.precio{
+    display: flex;
+}
+.contenedorInfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+img.mediana{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    min-height: 300px;
+    border-radius: 10px;
+}
+/*-----------------------------------------------NOSOTROS INFO--------------------------------------------------  */
+
+.contenedorNosotros{
+    height: 600px;
+}
+img.aboutus{
+
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 350px;
+}
+.dirreccion{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+}
+.dirreccion:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*-----------------------------------------------FORMULARIO--------------------------------------------------  */
+
+.contenedorDatos{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 900px;
+
+
+}
+.contenedorForm{
+    height: 900px;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 15px;
+    align-items: center;
+
+}
+.controls{
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    border: solid #947159;
+    font-weight: bold;
+    font-size: 15px;
+}
+.selector{
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    border: solid #947159;
+    font-weight: bold;
+    font-size: 15px;
+}
+.controls:hover{
+    text-decoration: underline;
+    color: #947159;
+}
+.formulario{
+    margin-bottom: 16px;
+}
+.botonCompra{
+    display: flex;
+    justify-content: center;
+}
+.BotonC{
+    background-color: #FCE7DB;
+    /* Green */
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%px;
+    height: 25px;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+.BotonC:hover{
+    background: #8E6A52;
+    color: #FCE7DB;
+}
+
+.footerimg {
+    background-color: aqua;
+    width: 100%;
+
+}
